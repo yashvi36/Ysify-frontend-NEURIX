@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>NEURIX - ysify</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-grow text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-white">
+      <div class="container">
+        <nav
+          class="navbar navbar-expand-lg navbar-light border-bottom border-2 border-white py-3"
+        >
+          <!-- Brand -->
+          <a href="index.html" class="navbar-brand">
+            <h1 class="fw-bold mb-0">𝓝𝓔𝓤𝓡𝓘𝓧</h1>
+          </a>
+
+          <!-- Mobile Toggle -->
+          <button
+            type="button"
+            class="navbar-toggler ms-auto me-0"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menu -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+              <a href="index.html" class="nav-item nav-link">Home</a>
+
+              <a href="about.html" class="nav-item nav-link">About</a>
+
+              <a href="feature.html" class="nav-item nav-link">Features</a>
+
+              <a href="project.html" class="nav-item nav-link">Projects</a>
+
+              <a href="service.html" class="nav-item nav-link">Service</a>
+
+              <!-- Dropdown -->
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle active"
+                  data-bs-toggle="dropdown"
+                >
+                  Resources
+                </a>
+                <div class="dropdown-menu bg-light mt-2">
+                  <a href="team.html" class="dropdown-item">Team</a>
+                  <a href="testimonial.html" class="dropdown-item">WorkFlow</a>
+                  <a href="404.html" class="dropdown-item">404</a>
+                  <a href="contact.html" class="dropdown-item active"
+                    >Contact</a
+                  >
+                </div>
+              </div>
+
+              <!-- CTA -->
+              <a href="contact.html" class="btn btn-primary ms-lg-3 px-4">
+                Get Started
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <div class="container-fluid pb-5 bg-light hero-header">
+      <div class="container py-5">
+        <div class="row g-3 align-items-center">
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="display-1 mb-0 animated slideInLeft">Contact</h1>
+          </div>
+          <div class="col-lg-6 animated slideInRight">
+            <nav aria-label="breadcrumb">
+              <ol
+                class="breadcrumb justify-content-center justify-content-lg-end mb-0"
+              >
+                <li class="breadcrumb-item">
+                  <a class="text-primary" href="#!">Home</a>
+                </li>
+                <li
+                  class="breadcrumb-item text-secondary active"
+                  aria-current="page"
+                >
+                  Contact
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="text-center wow fadeIn" data-wow-delay="0.1s">
+          <h1 class="mb-5">
+            Have Any Query?
+            <span class="text-uppercase text-primary bg-light px-2"
+              >Contact Us</span
+            >
+          </h1>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <div class="wow fadeIn" data-wow-delay="0.3s">
+              <form>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        placeholder="Your Name"
+                      />
+                      <label for="name">Your Name</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-floating">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="Your Email"
+                      />
+                      <label for="email">Your Email</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="subject"
+                        placeholder="Subject"
+                      />
+                      <label for="subject">Subject</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <textarea
+                        class="form-control"
+                        placeholder="Leave a message here"
+                        id="message"
+                        style="height: 150px"
+                      ></textarea>
+                      <label for="message">Message</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-primary w-100 py-3" type="submit">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- CTA Start -->
+    <div class="container-fluid py-5 bg-primary cta-bg-fixed">
+      <div class="container py-5">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-8">
+            <h1 class="text-white mb-4">
+              Build Real-World AI
+              <span class="bg-white text-primary px-2"> With NEURIX </span>
+            </h1>
+
+            <p class="text-white-50 mb-5 fs-5">
+              Move beyond concepts and start building scalable, intelligent
+              systems designed for production environments.
+            </p>
+
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+              <a href="#!" class="btn btn-light btn-lg px-5">Get Started</a>
+              <a href="#!" class="btn btn-outline-light btn-lg px-5">
+                View Documentation
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CTA End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+      <div class="container py-5">
+        <div class="row g-5">
+          <!-- BRAND -->
+          <div class="col-md-6 col-lg-4">
+            <a href="index.html" class="d-inline-block mb-3">
+              <h1 class="text-white fw-bold">YSIFY</h1>
+            </a>
+            <p class="mb-3">
+              YSIFY is a technology-driven studio focused on building
+              intelligent, scalable, and real-world AI-powered software
+              solutions.
+            </p>
+            <p class="small">
+              Founded by <span class="text-white">Yashvi Savaliya</span>.
+            </p>
+          </div>
+
+          <!-- CONTACT -->
+          <div class="col-md-6 col-lg-4">
+            <h5 class="text-white mb-4">Contact</h5>
+
+            <p>
+              <i class="fa fa-user me-3"></i>
+              Founder: Yashvi Savaliya
+            </p>
+
+            <p>
+              <i class="fa fa-phone-alt me-3"></i>
+              +91 99042 30962
+            </p>
+
+            <p>
+              <i class="fa fa-envelope me-3"></i>
+              info@ysify.in
+            </p>
+
+            <p>
+              <i class="fa fa-map-marker-alt me-3"></i>
+              Surat, India
+            </p>
+
+            <div class="d-flex pt-2">
+              <a
+                class="btn btn-outline-primary btn-square border-2 me-2"
+                href="#!"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                class="btn btn-outline-primary btn-square border-2 me-2"
+                href="#!"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                class="btn btn-outline-primary btn-square border-2 me-2"
+                href="#!"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- LINKS -->
+          <div class="col-md-6 col-lg-4">
+            <h5 class="text-white mb-4">Platform</h5>
+            <a class="btn btn-link" href="#!">AI Platform</a>
+            <a class="btn btn-link" href="#!">Solutions</a>
+            <a class="btn btn-link" href="#!">Workflow</a>
+            <a class="btn btn-link" href="#!">Documentation</a>
+            <a class="btn btn-link" href="#!">Get Started</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="container">
+        <div class="copyright py-4 border-top border-secondary">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start">
+              © 2025 <span class="text-white">YSIFY</span>. All rights reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              Built as an AI SaaS product showcase.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#!" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
